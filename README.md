@@ -2,8 +2,6 @@
 
 Convert crontab expression as human readable text
 
-Powered by [Cron Expression Descriptor](https://cronexpressiondescriptor.azurewebsites.net/).
-
 ![screenshot](/screenshot.png)
 
 ## Installation
@@ -16,10 +14,16 @@ Powered by [Cron Expression Descriptor](https://cronexpressiondescriptor.azurewe
 
 Download and import [alfred-cron.alfredworkflow](https://github.com/crispgm/alfred-cron/raw/master/alfred-cron.alfredworkflow).
 
-### Dependencies
+## Dependencies
 
 * Alfred
 * Alfred Powerpack
+
+## Credit
+
+* Crontab expression API is powered by [Cron Expression Descriptor](https://cronexpressiondescriptor.azurewebsites.net/).
+* [deanishe/awgo](https://github.com/deanishe/awgo)
+* [robfig/cron](https://github.com/robfig/cron)
 
 ## License
 
