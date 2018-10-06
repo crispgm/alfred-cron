@@ -25,6 +25,12 @@ Download and import [alfred-cron.alfredworkflow](https://github.com/crispgm/alfr
 * [deanishe/awgo](https://github.com/deanishe/awgo)
 * [robfig/cron](https://github.com/robfig/cron)
 
+## Changelog
+
+* 1.2: Add loading text
+* 1.1: Add an icon
+* 1.0: Initial version
+
 ## License
 
 MIT
