@@ -8,6 +8,12 @@ Powered by [Cron Expression Descriptor](https://cronexpressiondescriptor.azurewe
 
 ## Installation
 
+### Install via Packal
+
+[alfred-cron](http://www.packal.org/workflow/alfred-cron-0)
+
+### Install manually
+
 Download and import [alfred-cron.alfredworkflow](https://github.com/crispgm/alfred-cron/raw/master/alfred-cron.alfredworkflow).
 
 ### Dependencies
