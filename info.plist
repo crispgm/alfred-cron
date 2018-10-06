@@ -7,7 +7,10 @@
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>9C4EDF02-F88E-409D-909D-25B6F266705A</key>
+		<array/>
+	</dict>
 	<key>createdby</key>
 	<string>David Zhang</string>
 	<key>description</key>
@@ -73,9 +76,9 @@
 		<key>9C4EDF02-F88E-409D-909D-25B6F266705A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>150</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>190</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
