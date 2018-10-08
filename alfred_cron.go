@@ -21,7 +21,7 @@ func run() {
 		}
 		text, err := api.Call(arg)
 		if err == nil {
-			wf.NewItem(text)
+			wf.NewItem(text).Arg(text).Valid(true)
 			wf.SendFeedback()
 			return
 		}

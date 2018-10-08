@@ -9,7 +9,18 @@
 	<key>connections</key>
 	<dict>
 		<key>9C4EDF02-F88E-409D-909D-25B6F266705A</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F6D51FE-692D-4C86-A8AD-01D4E513A9F9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>David Zhang</string>
@@ -21,6 +32,23 @@
 	<string>Alfred-cron</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>6F6D51FE-692D-4C86-A8AD-01D4E513A9F9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -73,6 +101,13 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>6F6D51FE-692D-4C86-A8AD-01D4E513A9F9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
 		<key>9C4EDF02-F88E-409D-909D-25B6F266705A</key>
 		<dict>
 			<key>xpos</key>

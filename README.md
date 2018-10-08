@@ -27,6 +27,7 @@ Download and import [alfred-cron.alfredworkflow](https://github.com/crispgm/alfr
 
 ## Changelog
 
+* `1.3`: "Copy to Clipboard" with `Enter`
 * `1.2`: Add loading text
 * `1.1`: Add an icon
 * `1.0`: Initial version
