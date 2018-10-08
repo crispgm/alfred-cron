@@ -23,7 +23,9 @@ func run() {
 		if err == nil {
 			wf.NewItem(text)
 			wf.SendFeedback()
+			return
 		}
+		wf.Warn("Call API failed", "Try it later")
 	}
 	wf.WarnEmpty("No expression", "Input something like `*/5 * * * *`")
 }
