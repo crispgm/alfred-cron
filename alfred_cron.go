@@ -3,9 +3,8 @@ package main
 import (
 	"os"
 
-	api "github.com/crispgm/alfred-cron/cron"
-	"github.com/deanishe/awgo"
-	"github.com/robfig/cron"
+	aw "github.com/deanishe/awgo"
+	"github.com/lnquy/cron"
 )
 
 var wf *aw.Workflow
@@ -13,21 +12,20 @@ var wf *aw.Workflow
 func run() {
 	if len(os.Args) > 1 {
 		arg := os.Args[1]
-		parser := cron.NewParser(cron.Minute | cron.Hour | cron.Dom | cron.Month | cron.Dow)
-		_, err := parser.Parse(arg)
+
+		exprDesc, _ := cron.NewDescriptor()
+		desc, err := exprDesc.ToDescription(arg, cron.Locale_en)
 		if err != nil {
 			wf.Warn("Invalid expression", "Input something like `*/5 * * * *`")
 			return
 		}
-		text, err := api.Call(arg)
 		if err == nil {
-			wf.NewItem(text).Arg(text).Valid(true)
+			wf.NewItem(desc).
+				Arg(desc).Valid(true)
 			wf.SendFeedback()
 			return
 		}
-		wf.Warn("Call API failed", "Try it later")
 	}
-	wf.WarnEmpty("No expression", "Input something like `*/5 * * * *`")
 }
 
 func main() {
