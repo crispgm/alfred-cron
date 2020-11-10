@@ -16,21 +16,22 @@ Download and import [alfred-cron.alfredworkflow](https://github.com/crispgm/alfr
 
 ## Dependencies
 
-* [Alfred](https://www.alfredapp.com/)
-* [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
+- [Alfred](https://www.alfredapp.com/)
+- [Alfred Powerpack](https://www.alfredapp.com/powerpack/)
 
 ## Credit
 
-* [Cron Expression Descriptor](https://github.com/bradymholt/cron-expression-descriptor)
-* [deanishe/awgo](https://github.com/deanishe/awgo)
-* [robfig/cron](https://github.com/robfig/cron)
+- [Cron Expression Descriptor](https://github.com/bradymholt/cron-expression-descriptor)
+- [deanishe/awgo](https://github.com/deanishe/awgo)
+- [lnquy/cron](https://github.com/lnquy/cron)
 
 ## Changelog
 
-* `1.3`: "Copy to Clipboard" with `Enter`
-* `1.2`: Add loading text
-* `1.1`: Add an icon
-* `1.0`: Initial version
+- `2.0`: Migrate to local cron library
+- `1.3`: "Copy to Clipboard" with `Enter`
+- `1.2`: Add loading text
+- `1.1`: Add an icon
+- `1.0`: Initial version
 
 ## License
 
