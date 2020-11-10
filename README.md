@@ -1,6 +1,6 @@
 # alfred-cron
 
-Convert Cron expression to human readable text. Based on [Cron Expression Descriptor](https://github.com/bradymholt/cron-expression-descriptor).
+Convert Cron expression to human readable text.
 
 ![screenshot](/screenshot.png)
 
@@ -21,7 +21,6 @@ Download and import [alfred-cron.alfredworkflow](https://github.com/crispgm/alfr
 
 ## Credit
 
-- [Cron Expression Descriptor](https://github.com/bradymholt/cron-expression-descriptor)
 - [deanishe/awgo](https://github.com/deanishe/awgo)
 - [lnquy/cron](https://github.com/lnquy/cron)
 
