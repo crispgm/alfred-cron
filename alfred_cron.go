@@ -16,7 +16,7 @@ func run() {
 		exprDesc, _ := cron.NewDescriptor()
 		desc, err := exprDesc.ToDescription(arg, cron.Locale_en)
 		if err != nil {
-			wf.Warn("Invalid expression", "Input something like `*/5 * * * *`")
+			wf.Warn("Invalid expression", "Input cron expression like `*/5 * * * *`")
 			return
 		}
 		if err == nil {
